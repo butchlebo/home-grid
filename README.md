@@ -6,6 +6,7 @@ SysMango home network ansible runbooks.
 
 This project is to automate the rebuild of the grid machines.
 The intent is to rebuild all the machine to the same snapshot of the distribution and then collect the machines into a docker swarm.
+Once the swarm is established, the project will start launching docker services on the swarm.
 
 Automation will be done via ansible.
 
